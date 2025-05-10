@@ -1,0 +1,19 @@
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ul {
+  list-style-type: square;
+}
+
