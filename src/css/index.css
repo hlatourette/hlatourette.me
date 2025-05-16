@@ -1,19 +1,35 @@
-table {
-  border: 1px solid black;
-  border-collapse: collapse;
+body {
+  font-family: "Courier New", "Lucida Console", monospace;
 }
 
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  .container-column {
+    width: 75%;
+  }
+
+  .container-row {
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    ul {
+      list-style-position: inside;
+      list-style-type: none;
+      padding-left: 0;
+      text-align: center;
+    }
+  }
 }
 
-tr {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-ul {
-  list-style-type: square;
+.container-canvas {
+  text-align: center;
 }
 
